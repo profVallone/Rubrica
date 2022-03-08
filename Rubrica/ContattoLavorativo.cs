@@ -7,11 +7,8 @@
 
 
 
-        public ContattoLavorativo(string nome, string cognome, string numero, string ruolo)
-        {
-            this.nome = nome;
-            this.cognome = cognome;
-            this.numero = numero;
+        public ContattoLavorativo(string nome, string cognome, string numero, string ruolo):base(nome, cognome, numero)
+        {  
             this.ruolo = ruolo;
         }
 

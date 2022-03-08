@@ -4,14 +4,9 @@
     {
         private static readonly int costo = 2; 
         private string relazione;
-        
-       
 
-        public ContattoPersonale(string nome, string cognome, string numero, string relazione)
+        public ContattoPersonale(string nome, string cognome, string numero, string relazione) : base(nome, cognome, numero)
         {
-            this.nome = nome;
-            this.cognome = cognome;
-            this.numero = numero;
             this.relazione = relazione;
         }
 
